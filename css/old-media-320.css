@@ -1,0 +1,145 @@
+/*RESPONSIVE START*/
+@media screen and (max-width: 320px) {
+    /*GLOBAL 320 START*/
+    body {
+        max-width: 320px;
+        min-width: 0;
+    }
+    .container {
+        max-width: 320px;
+        padding: 30px 30px;
+    }
+    .nav-panel ul li button {
+        color: rgba(200, 200, 200, 1);
+        cursor: pointer;
+        text-transform: uppercase;
+        display: inline-block;
+        transform: translateY(0);
+        transition: 0.5s ease;
+        font-size: 20px;
+        border: none;
+        background: none;
+    }
+    .nav-panel ul li button:hover {
+        color: #fff;
+        transform: translateY(-2px);
+    }
+    .nav-panel ul li a {
+        color: rgba(200, 200, 200, 1);
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        transform: translateY(0);
+        transition: 0.5s ease;
+        font-size: 20px;
+    }
+    .nav-panel ul li a:hover {
+        color: #fff;
+        transform: translateY(-2px);
+    }
+    .nav-panel ul li:nth-last-child(n+2) {
+        padding-right: 75px;
+    }
+    /*GLOBAL 320 END*/
+
+    /*HEADER 320 START*/
+
+    .soldier-img {
+        position: absolute;
+        left: -50px;
+        top: 750px;
+        z-index: -1;
+    }
+    .starship-img {
+        position: absolute;
+        left: -220px;
+        top: 680px;
+        z-index: -2;
+    }
+    .deathstar-img {
+        position: absolute;
+        left: -390px;
+        top: 20;
+        z-index: -3;
+    }
+
+
+    .nav-panel {
+        display: block;
+    }
+
+    .nav-panel ul {
+        margin-top: 40px;
+    } 
+    .nav-panel ul li a {
+        font-size: 30px;
+    } 
+    .nav-panel ul li button {
+        font-size: 30px;
+    } 
+
+
+
+    .block-1 {
+        max-width: 0px;
+        font-size: 30px;
+        padding: 72px 0 0 0;
+        line-height: 0.9;
+    }
+    .block-2 {
+        font-size: 147px;
+        letter-spacing: -1%;
+    }
+    .block-3 {
+        font-size: 80px;
+        grid-column: span 2;
+        margin-top: -30px;
+        line-height: 0.9;
+        padding: 7px 0 0 0;
+    }
+
+    .header-buttons {
+        margin-top: 110px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-buttons button {
+        font-size: 40px;
+    }
+    
+    .second-button {
+        border: 4px solid rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    /*HEADER 320 START*/
+
+    /*SECTION 320 START*/
+    .section {
+        margin-top: 580px;
+    }
+    /*SECTION 320 END*/
+
+
+
+
+    /*FOOTER 320 START*/
+
+    /*FOOTER 320 END*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE END*/
