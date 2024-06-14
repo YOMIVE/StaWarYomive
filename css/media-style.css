@@ -777,7 +777,7 @@
         margin-top: 30px;
     }
 
-    
+
     #cat-234 {
         padding: 0;
     }
@@ -997,8 +997,8 @@
 
     .card {
         margin-top: 40px;
-        min-width: 250px;
-        max-width: 250px;
+        min-width: 260px;
+        max-width: 260px;
         height: 377px;
         border: 2px solid rgba(255, 255, 255, 0.7);
         border-radius: 24.5px;
@@ -1021,6 +1021,10 @@
         position: absolute;
         bottom: 15px;
         left: 60px;
+    }
+
+    #cat-234 {
+        padding: 0;
     }
 
 
