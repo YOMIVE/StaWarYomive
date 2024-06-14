@@ -582,3 +582,206 @@
     }
 
 }
+
+@media screen and (max-width: 320px) {
+    /*GLOBAL START*/
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    /*HEADER START*/
+    .header {
+        width: 100vw;
+        height: 100vh;
+    }
+    .header .container {
+        margin: 0 0;
+        height: 100vh;
+        max-width: calc(100vw - 40px);
+    }
+    .nav-panel {
+        display: block;
+        max-width: 100vw;
+        object-fit: cover;
+    }
+    .nav-panel a img {
+        width: 150px;
+    }
+    .nav-panel ul {
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+        justify-content: left;
+    }
+    .nav-panel ul li a {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .nav-panel ul li button {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .nav-panel ul li:nth-last-child(n+2) {
+        padding-right: 21px;
+    }
+    .soldier-img {
+        position: absolute;
+        z-index: -1;
+        right: -180px;
+        top: 400px;
+        object-fit: cover;
+    }
+    .soldier-img img {
+        height: 300px;
+    }
+    .deathstar-img {
+        position: absolute;
+        left: -100px;
+        top: -10px;
+        z-index: -3;
+    }
+    .deathstar-img img {
+        height: 600px;
+        position: absolute;
+        left: -100px;
+        z-index: -3;
+    }
+    .starship-img {
+        position: absolute;
+        left: -100px;
+        top: 410px;
+        z-index: -2;
+    }
+    .starship-img img {
+        width: 300px;
+    }
+    .main-text-grid {
+        width: 100%;
+    }
+    .block-1 {
+        color: rgba(160, 160, 160);
+        font-size: 17px;
+        letter-spacing: 0px;
+        padding: 34px 0px 0 0;
+        line-height: 0.9;
+        font-weight: 900;
+        margin-right: 70px;
+        max-width: 50px;
+        position: absolute;
+        left: 20px;
+        top: 170px;
+    }
+    .block-2 {
+        color: #fff;
+        font-size: 60px;
+        letter-spacing: -1%;
+        max-width: 250px;
+
+        position: absolute;
+        left: 220px;
+        top: 175px;
+
+    }
+    .block-3 {
+        color: rgb(222, 222, 222);
+        font-size: 35px;
+        grid-column: span 2;
+        margin-top: -10px;
+        line-height: 0.9;
+        font-weight: 00;
+        max-width: 500px;
+        margin-top: 55px;
+    }
+    .main-text {
+        width: 100vw;
+        height: 0;
+        margin-top: 60px;
+    }
+    .header-buttons {
+        margin-top: 165px;
+        width: 100vw;
+        display: flex;
+    }
+    .header-buttons button,
+    .header-buttons a {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+    .header-buttons button {
+        border: 2px solid rgba(255, 255, 255, 0.7);
+    }
+    .second-button {
+        color: rgba(255, 255, 255, 0.5);
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        font-weight: 500;
+        
+    }
+
+
+    /*GALLERY START*/
+    .section {
+        width: 100vw;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section .container {
+        width: 100vw;
+        margin-top: 0px;
+        padding-left: 0;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+
+    }
+    
+
+    .gallery > :nth-last-child(-n+4) {
+        display: none;
+    }
+    .gallery .card {
+        margin-top: 30px;
+    }
+
+
+
+    /*FOOTER*/
+    .footer .container {
+        max-width: calc(100vw - 60px);
+        padding-bottom: 10px;
+        min-height: 420px;
+    }
+    .footer-links {
+        display: none;
+    }
+    .footer-logos {
+        max-width: calc(100vw - 60px);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 30px;
+    }
+    .footer-logos li:not(:last-child) {
+        margin-right: 0px;
+    }
+    .footer-logos li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-logos li a {
+        margin: 0 auto;
+    }
+
+    .footer-logos li:nth-child(2) {
+        order: 0; 
+    }
+    .footer-logos li:nth-child(4) {
+        order: 4; 
+    }
+
+}
