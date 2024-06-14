@@ -617,6 +617,7 @@
         display: flex;
         width: 100%;
         justify-content: left;
+        margin-left: 0;
         max-width: calc(100vw - 30px);
         justify-content: space-between;
     }
