@@ -2,7 +2,6 @@
     /*GLOBAL START*/
     body {
         overflow-x: hidden;
-        overflow: hidden;
     }
     
     .container {
@@ -794,9 +793,7 @@
     /*GLOBAL START*/
     .container {
         margin: 0 auto;
-        padding: 0 10px;
-    }
-    .header {
+        padding: 0 15px;
     }
     
     /*HEADER START*/
@@ -808,7 +805,7 @@
         margin: 0 0;
         padding-top: 10px;
         height: 100vh;
-        max-width: calc(100vw - 20px);
+        max-width: calc(100vw - 30px);
     }
     .nav-panel {
         display: block;
@@ -816,24 +813,24 @@
         object-fit: cover;
     }
     .nav-panel a img {
-        width: 100px;
+        width: 150px;
     }
     .nav-panel ul {
-        margin-top: 20px;
+        margin-top: 15px;
         display: flex;
         width: 100%;
         justify-content: left;
     }
     .nav-panel ul li a {
-        font-size: 10px;
+        font-size: 17px;
         font-weight: 300;
     }
     .nav-panel ul li button {
-        font-size: 10px;
+        font-size: 17px;
         font-weight: 300;
     }
     .nav-panel ul li:nth-last-child(n+2) {
-        padding-right: 24px;
+        padding-right: 33px;
     }
     .soldier-img {
         position: absolute;
@@ -863,7 +860,6 @@
         left: -100px;
         top: 410px;
         z-index: -2;
-        overflow: hidden;
         display: none;
     }
     .starship-img img {
@@ -880,25 +876,25 @@
 
     .block-1 {
         color: rgba(160, 160, 160);
-        font-size: 10px;
+        font-size: 15px;
         letter-spacing: 0px;
         padding: 0px 0px 0 0;
         line-height: 0.9;
         font-weight: 900;
         max-width: 50px;
         position: absolute;
-        left: 10px;
-        top: 120px;
+        left: 15px;
+        top: 150px;
     }
     .block-2 {
         color: #fff;
-        font-size: 50px;
+        font-size: 70px;
         letter-spacing: -1%;
         max-width: 250px;
 
         position: absolute;
-        left: 195px;
-        top: 90px;
+        left: 210px;
+        top: 108px;
 
     }
     .block-3 {
@@ -908,31 +904,34 @@
         line-height: 0.9;
         font-weight: 00;
         max-width: 500px;
-        margin-top: 2px;
     }
     .main-text {
         width: 100vw;
         height: 0;
-        margin-top: 60px;
+        margin-top: 20px;
     }
     .header-buttons {
-        margin-top: 100px;
+        margin-top: 150px;
         width: 100vw;
         display: flex;
     }
     .header-buttons button,
     .header-buttons a {
-        font-size: 10px;
+        font-size: 16px;
         padding: 10px 20px;
     }
     .header-buttons button {
-        border: 1px solid rgba(255, 255, 255, 0.7);
+        border: 2px solid rgba(255, 255, 255, 0.7);
     }
     .second-button {
-        color: rgba(255, 255, 255, 0.5);
-        border: 1px solid rgba(255, 255, 255, 0.5);
+        border: 2px solid rgba(255, 255, 255, 0.5);
         font-weight: 500;
         
+    }
+
+    .header-buttons button:hover,
+    .second-button:hover {
+        border: 2px solid rgba(255, 255, 255, 1);
     }
 
 
@@ -1001,10 +1000,5 @@
     }
     .footer-logos li:nth-child(4) {
         order: 4; 
-    }
-
-    body {
-        overflow-x: hidden;
-        overflow: hidden;
     }
 }
