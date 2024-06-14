@@ -68,6 +68,7 @@ body {
     min-height: 1500px;
     position: relative;
     overflow-x: hidden;
+    overflow: hidden;
 }
 
 ul {
@@ -225,12 +226,14 @@ h2 {
     left: 0;
     top: 0;
     z-index: -3;
+    object-fit: cover;
 }
 .starship-img {
     position: absolute;
     left: -200px;
     top: 530px;
     z-index: -2;
+    object-fit: cover;
 }
 /*HEADER END*/
 
