@@ -588,6 +588,9 @@
 
 @media screen and (max-width: 375px) {
     /*GLOBAL START*/
+    body {
+        max-width: 100vw;
+    }
     .container {
         margin: 0 auto;
         padding: 0 15px;
@@ -597,6 +600,7 @@
     .header {
         width: 100vw;
         height: 100vh;
+        max-width: 100vw;
     }
     .header .container {
         margin: 0 0;
@@ -755,17 +759,27 @@
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
+        max-width: 100vw;
 
     }
     .container h2 {
         font-size: 30px;
+        max-width: 100vw;
     }
-
+    .gallery {
+        max-width: 100vw;
+        padding: 0;
+    }
     .gallery > :nth-last-child(-n+4) {
         display: none;
     }
     .gallery .card {
         margin-top: 30px;
+    }
+
+    
+    #cat-234 {
+        padding: 0;
     }
 
 
@@ -804,6 +818,10 @@
     }
     .footer-logos li:nth-child(4) {
         order: 4; 
+    }
+
+    .footer .container {
+        margin: 0 auto;
     }
 }
 
