@@ -500,13 +500,13 @@
     }
     .block-2 {
         color: #fff;
-        font-size: 82px;
+        font-size: 75px;
         letter-spacing: -1%;
         max-width: 250px;
 
         position: absolute;
         left: 220px;
-        top: 128px;
+        top: 133px;
 
     }
     .block-3 {
@@ -949,7 +949,7 @@
         color: rgba(160, 160, 160);
         font-size: 13px;
         letter-spacing: 0px;
-        padding: 34px 0px 0 0;
+        padding: 33px 0px 0 0;
         line-height: 0.9;
         font-weight: 900;
         margin-right: 70px;
