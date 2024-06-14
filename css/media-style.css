@@ -617,6 +617,8 @@
         display: flex;
         width: 100%;
         justify-content: left;
+        max-width: calc(100vw - 30px);
+        justify-content: space-between;
     }
     .nav-panel ul li a {
         font-size: 17px;
@@ -667,6 +669,9 @@
         max-height: 100%;
         object-fit: cover;
     }
+    .main-text {
+        max-width: 290px;
+    }
     .main-text-grid {
         width: 100%;
     }
@@ -681,7 +686,7 @@
         max-width: 50px;
         position: absolute;
         left: 15px;
-        top: 150px;
+        top: 170px;
     }
     .block-2 {
         color: #fff;
@@ -691,7 +696,7 @@
 
         position: absolute;
         left: 210px;
-        top: 108px;
+        top: 128px;
 
     }
     .block-3 {
@@ -705,12 +710,13 @@
     .main-text {
         width: 100vw;
         height: 0;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .header-buttons {
-        margin-top: 150px;
+        margin-top: 160px;
         width: 100vw;
         display: flex;
+        max-width: 290px;
     }
     .header-buttons button,
     .header-buttons a {
@@ -903,7 +909,7 @@
 
         position: absolute;
         left: 205px;
-        top: 160px;
+        top: 159px;
 
     }
     .block-3 {
