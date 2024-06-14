@@ -1104,3 +1104,19 @@
     }
 
 }
+
+@media screen and (height: 667px) {
+    .header .container {
+        margin: 0 0;
+        height: 140vh;
+        max-width: calc(100vw - 30px);
+    }
+
+    .soldier-img {
+        position: absolute;
+        z-index: -1;
+        right: -180px;
+        top: 350px;
+        object-fit: cover;
+    }
+}
