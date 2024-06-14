@@ -830,7 +830,7 @@
         font-weight: 300;
     }
     .nav-panel ul li:nth-last-child(n+2) {
-        padding-right: 33px;
+        padding-right: 26px;
     }
     .soldier-img {
         position: absolute;
